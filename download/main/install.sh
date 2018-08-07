@@ -27,7 +27,6 @@ echo -e "\n"
 sudo cd /root
 yum groupinstall "X Window System" -y
 yum groupinstall "MATE Desktop" -y
-yum remove firefox -y
 yum groupinstall "Chinese support" -y
 yum groups mark install "Chinese support" -y
 yum install cjkuni-ukai-fonts cjkuni-uming-fonts -y

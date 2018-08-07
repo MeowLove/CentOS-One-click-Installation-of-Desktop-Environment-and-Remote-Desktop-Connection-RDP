@@ -25,7 +25,7 @@ Features:
 
 5. Install software that people recommend, such as browsers and input methods.
 
-    (I posted a survey here http://www.hostloc.com/thread-466449-1-1.html. Respect the results of the survey and Chrome is installed.)
+    (I posted a survey here http://www.hostloc.com/thread-466449-1-1.html. Respect the results of the survey,  Chrome、Firefox is installed.)
 
 
 Let's get started (via root user)
