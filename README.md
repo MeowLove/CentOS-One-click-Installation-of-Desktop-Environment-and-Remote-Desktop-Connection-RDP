@@ -6,7 +6,7 @@ My website: https://tech.cxthhhhh.com
 Features:
 1. Install the desktop environment and RDP remote desktop connection for your CentOS with one click.
 
-    (You need a newly installed CentOS7, the Minimum Hardware requirements are: CPU core ≥ 1, Memory ≥ 1GB, Disk space ≥ 20GB.)
+    (You need a newly installed CentOS7, the Minimum Hardware requirements are: CPU core ≥ 1, Memory ≥ 1GB, Disk space ≥ 15GB.)
 
     Recommended system : [Original] Network one-click Reinstall CentOS 7 (Official, Pure, Safe, Efficient) 
     URL : https://tech.cxthhhhh.com/linux/2018/07/30/original-network-one-click-reinstall-centos-7-official-pure-safe-efficient-en.html
@@ -15,7 +15,7 @@ Features:
 
     (Install Wine X64 and X86, now you can Run Windows applications On Linux.)
 
-3. Create a 5GB Swap Memory. Avoid errors caused by insufficient memory.
+3. Create a 3GB Swap Memory. Avoid errors caused by insufficient memory.
 
     (Swap Location: /var/swapd)
 

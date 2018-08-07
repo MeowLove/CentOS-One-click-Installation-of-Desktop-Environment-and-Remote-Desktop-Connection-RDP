@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "Welcome to Desktop environment and Remote connection tool ! V0.3"
+echo "Welcome to Desktop environment and Remote connection tool ! V0.5.1"
 echo "System requirements: CentOS 7+ New installation"
 echo "Recommended system : [Original] Network one-click Reinstall CentOS 7 (Official, Pure, Safe, Efficient)"
 echo "URL : https://tech.cxthhhhh.com/linux/2018/07/30/original-network-one-click-reinstall-centos-7-official-pure-safe-efficient-en.html"
@@ -14,7 +14,7 @@ echo -e "\n"
 sudo cd /root
 yum install epel-release -y
 echo "Start creating Swaps Memory, please wait..."
-dd if=/dev/zero of=/var/swapd bs=1024 count=5242880
+dd if=/dev/zero of=/var/swapd bs=1024 count=3145728
 mkswap /var/swapd
 chmod 0644 /var/swapd
 swapon /var/swapd
@@ -55,7 +55,7 @@ echo "--------------------------------------------------------------------------
 
 echo -e "\n"
 sudo cd /root
-yum install https://raw.githubusercontent.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP/master/download/ttf/wine/wine32-release.rpm -y
+yum install https://raw.githubusercontent.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP/master/download/wine/wine32-release.rpm -y
 yum install wine.i686 -y
 yum install wine -y
 sudo wget -O /usr/share/wine/fonts/msyh.ttc https://raw.githubusercontent.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP/master/download/ttf/msyh.ttc
@@ -97,7 +97,7 @@ echo "Warning: Now, you need to pay attention to the following, please visit thi
 echo "Technical Blog | 技術博客 | 易，窮則變，變則通，通則久。是以自天佑之，吉無不利"
 echo "https://tech.cxthhhhh.com"
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "End to Desktop environment and Remote connection tool ! V0.3"
+echo "End to Desktop environment and Remote connection tool ! V0.5.1"
 echo "Everything is ready and the system is restarting. Then you can connect via (RDP)IP:3389."
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "from https://tech.cxthhhhh.com - 2018/08/07 - MeowLove"
