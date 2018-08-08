@@ -2,6 +2,7 @@
 Install the desktop environment and RDP remote desktop connection for your CentOS with one click.
 My website: https://tech.cxthhhhh.com
 
+![image](https://raw.githubusercontent.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP/master/download/img/Demo_Picture.png)
 
 Features:
 1. Install the desktop environment and RDP remote desktop connection for your CentOS with one click.
