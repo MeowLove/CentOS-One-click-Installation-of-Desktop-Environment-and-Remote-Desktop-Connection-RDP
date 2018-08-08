@@ -41,8 +41,8 @@ Now that you have done it, you can connect via RDP (IP: 3389)
 
 You should check out my tutorial to find out what you need to pay attention to.
 
-    Tutorial name : Waiting to add
-    URL : Waiting to add
+    Tutorial name : [Original] One-click installation of Desktop environment, RDP, Windows support for Linux
+    URL : https://tech.cxthhhhh.com/linux/2018/08/07/original-one-click-installation-of-desktop-environment-rdp-windows-support-for-linux-en.html
 
 
-Updated on Aug 7, 2018
+Updated on Aug 8, 2018

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "Welcome to Desktop environment and Remote connection tool ! V0.5.1"
+echo "Welcome to Desktop environment and Remote connection tool ! V1.0.0"
 echo "System requirements: CentOS 7+ New installation"
 echo "Recommended system : [Original] Network one-click Reinstall CentOS 7 (Official, Pure, Safe, Efficient)"
 echo "URL : https://tech.cxthhhhh.com/linux/2018/07/30/original-network-one-click-reinstall-centos-7-official-pure-safe-efficient-en.html"
@@ -94,13 +94,13 @@ echo "The current default system language is Chinese."
 echo "If you are an English user, please execute ' sudo localectl set-locale LANG=en_US.UTF-8 '"
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "Warning: Now, you need to pay attention to the following, please visit this page."
-echo "Technical Blog | 技術博客 | 易，窮則變，變則通，通則久。是以自天佑之，吉無不利"
-echo "https://tech.cxthhhhh.com"
+echo "[Original] One-click installation of Desktop environment, RDP, Windows support for Linux"
+echo "https://tech.cxthhhhh.com/linux/2018/08/07/original-one-click-installation-of-desktop-environment-rdp-windows-support-for-linux-en.html"
 echo "---------------------------------------------------------------------------------------------------------------------"
-echo "End to Desktop environment and Remote connection tool ! V0.5.1"
+echo "End to Desktop environment and Remote connection tool ! V1.0.0"
 echo "Everything is ready and the system is restarting. Then you can connect via (RDP)IP:3389."
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo "from https://tech.cxthhhhh.com - 2018/08/07 - MeowLove"
 echo "---------------------------------------------------------------------------------------------------------------------"
-reboot !
+reboot
 echo -e "\n"
