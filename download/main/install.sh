@@ -55,7 +55,15 @@ echo "--------------------------------------------------------------------------
 
 echo -e "\n"
 sudo cd /root
-yum install https://raw.githubusercontent.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP/master/download/wine/wine32-release.rpm -y
+rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP/master/download/nux-dextop/nux-dextop-release-0-5.el7.nux.noarch.rpm --quiet
+yum install remmina remmina-plugins-* -y
+echo "---------------------------------------------------------------------------------------------------------------------"
+echo "The Remmina Already installed  is [OK]"
+echo "---------------------------------------------------------------------------------------------------------------------"
+
+echo -e "\n"
+sudo cd /root
+rpm -Uvh --force https://raw.githubusercontent.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP/master/download/wine/wine32-release.rpm --quiet
 yum install wine.i686 -y
 yum install wine -y
 sudo wget -O /usr/share/wine/fonts/msyh.ttc https://raw.githubusercontent.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP/master/download/ttf/msyh.ttc
