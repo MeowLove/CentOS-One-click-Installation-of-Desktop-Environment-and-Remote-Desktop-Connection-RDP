@@ -26,14 +26,15 @@ Features:
 
 5. Install software that people recommend, such as browsers and input methods.
 
-    (I posted a survey here http://www.hostloc.com/thread-466449-1-1.html. Respect the results of the survey,  Chrome、Firefox is installed.)
+    (I posted a survey here https://www.hostloc.com/thread-466449-1-1.html. Respect the results of the survey,  Chrome、Firefox is installed.)
+
+6. Install the Remote Desktop client. (Remmina allows you to connect and manage other computers.)
+    (Support RDP/SSH/NX/SFTP/VNC/XDMCP protocol)
 
 
 Let's get started (via root user)
 
     sudo curl -sSL https://raw.githubusercontent.com/MeowLove/CentOS-One-click-Installation-of-Desktop-Environment-and-Remote-Desktop-Connection-RDP/master/download/main/install.sh | sudo bash
-
-
 
 
 Now that you have done it, you can connect via RDP (IP: 3389)
@@ -45,4 +46,4 @@ You should check out my tutorial to find out what you need to pay attention to.
     URL : https://tech.cxthhhhh.com/linux/2018/08/07/original-one-click-installation-of-desktop-environment-rdp-windows-support-for-linux-en.html
 
 
-Updated on Aug 8, 2018
+Updated on Aug 16, 2018
